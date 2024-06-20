@@ -1,3 +1,0 @@
----
-#Para que no lance el proceso en los tests
-spring.batch.job.enabled: false
