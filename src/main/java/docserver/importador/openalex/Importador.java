@@ -78,7 +78,7 @@ public class Importador implements ApplicationRunner {
         if (documentoContent != null) {
             VersionDocumentoFuenteIdentificador versionInicialFuenteIdentificador
                     = new VersionDocumentoFuenteIdentificador(
-                            VersionDocumentoFuenteIdentificador.Sistema.BIBUR,
+                            VersionDocumentoFuenteIdentificador.Sistema.OPENALEX,
                             documentoOpenalex.getId().replace("https://openalex.org/", "").toUpperCase());
 
             return new Documento(documentoContent, versionDocumentoId, versionInicialFuenteIdentificador);
